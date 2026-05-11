@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audit Factory</title>
+</head>
+<body>
+
+<h1>Audit Factory - Findings</h1>
+
+<form method="post" action="/add">
+    <input name="client" placeholder="Client"><br><br>
+    <input name="title" placeholder="Finding title"><br><br>
+    <input name="impact" placeholder="Impact"><br><br>
+    <input name="reco" placeholder="Recommendation"><br><br>
+
+    <button type="submit">Ajouter Finding</button>
+</form>
+
+<hr>
+
+<h2>Générer rapport</h2>
+
+<form method="post" action="/generate">
+    <input name="client" placeholder="Client"><br><br>
+    <button type="submit">Générer DOCX</button>
+</form>
+
+</body>
+</html>
