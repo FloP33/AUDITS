@@ -1,3 +1,8 @@
 export default function App() {
-  return <h1>Audit Factory v3</h1>;
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>Audit Factory v3</h1>
+      <p>Frontend opérationnel.</p>
+    </div>
+  );
 }
