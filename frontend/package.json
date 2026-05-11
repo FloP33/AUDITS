@@ -1,0 +1,11 @@
+{
+  "name": "audit-ui",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^18",
+    "axios": "^1.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}

@@ -1,0 +1,7 @@
+findings:
+  AD_001:
+    title: "SMB Signing non requis"
+    severity: "High"
+    description: "SMB Signing désactivé"
+    impact: "Relay NTLM possible"
+    recommendation: "Activer SMB Signing"
