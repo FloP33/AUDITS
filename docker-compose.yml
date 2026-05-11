@@ -5,7 +5,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-      container_name: APP-AUDITS-API
+      container_name: audits-api
       ports:
         - "8050:8000"
 
